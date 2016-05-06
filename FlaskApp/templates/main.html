@@ -7,6 +7,22 @@
 	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
 	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
+
+<header>
+  	<div class="navbar-header">
+
+      <a class="navbar-brand" href="/">
+		  <img  style= "max-width: 120px; margin-top: -7px;" src="{{ url_for('static', filename='images/mainlogo.png') }}">
+	  </a>
+    </div>
+	<ul class="nav nav-pills">
+	  <li role="presentation" class="active"><a href="#">Home</a></li>
+	  <li role="presentation"><a href="#">Profile</a></li>
+	  <li role="presentation"><a href="#">Messages</a></li>
+	</ul>
+
+</header>
+
+
 </html>
 
-<p>Hi there how ya doin!?</p>
